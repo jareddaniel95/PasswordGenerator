@@ -34,7 +34,7 @@ function generatePassword() {
     }
     if (confirm("Select OK to include numbers in password."))
     {
-      characterSelection += "1234567890";
+      characterSelection += "0123456789";
     }
     if (confirm("Select OK to include special characters in password."))
     {
